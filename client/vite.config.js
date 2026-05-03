@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5174,
-    allowedHosts: ['chancellor-generators-comment-definitely.trycloudflare.com'], // add this line
+    allowedHosts: ['ambitiousyouths.com'], // add this line
 
     proxy: {
       '/api': { target: 'http://localhost:4000', changeOrigin: true },
