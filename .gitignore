@@ -1,4 +1,8 @@
 # Sync .project/sourceTexts/ folder (source text files)
+node_modules/
+dist/
+build/
+*.log
 
 # Don't sync user-specific SQLite databases
 .project/*.sqlite
