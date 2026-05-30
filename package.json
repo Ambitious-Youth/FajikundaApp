@@ -1,5 +1,5 @@
 {
-  "homepage":"",
+  "homepage": "",
   "name": "fajikunda-society",
   "version": "1.0.0",
   "description": "Fajikunda Society Diaspora Platform",
@@ -8,6 +8,11 @@
     "client": "cd client && npm run dev",
     "install:all": "cd server && npm install && cd ../client && npm install",
     "start:server": "cd server && npm start",
-    "build:client": "cd client && npm run build"
+    "build:client": "cd client && npm run build",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.95.0"
   }
 }
